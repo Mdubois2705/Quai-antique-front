@@ -11985,16 +11985,21 @@ html {
   min-height: 100%;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 main {
-  margin-bottom: 120px;
-  /* Hauteur du footer */
+  flex: 1;
+  margin-bottom: 0;
 }
 
 footer.footer {
   padding: 15px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  margin-top: auto;
 }
 
 .hero-scene {
@@ -12038,4 +12043,26 @@ footer.footer {
 
 .img-fluid {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.image-card {
+  position: relative;
+}
+.image-card:hover .titre-image {
+  opacity: 1;
+}
+.image-card:hover img {
+  filter: brightness(0.3);
+}
+.image-card img {
+  transition: all 0.3s;
+}
+.image-card .titre-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

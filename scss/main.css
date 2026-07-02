@@ -12070,4 +12070,12 @@ footer.footer {
 .form-label {
   color: #49DCB1;
   font-weight: bold;
+}
+
+.formsign {
+  background-color: #4F5D75;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
 }/*# sourceMappingURL=main.css.map */

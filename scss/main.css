@@ -12065,4 +12065,9 @@ footer.footer {
   opacity: 0;
   transition: all 0.3s;
   text-align: center;
+}
+
+.form-label {
+  color: #49DCB1;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

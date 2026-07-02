@@ -12041,6 +12041,14 @@ footer.footer {
   transform: translateY(-2px);
 }
 
+.btn-danger {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-danger:hover {
+  filter: brightness(0.85);
+  transform: translateY(-2px);
+}
+
 .img-fluid {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }

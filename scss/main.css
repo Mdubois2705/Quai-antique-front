@@ -12097,4 +12097,10 @@ footer.footer {
   border-radius: 15px;
   margin: 30px;
   box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+.allreservations a {
+  display: block;
+  color: #2D3142;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -56,8 +56,28 @@
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary">Réserver</button>
-                <button type="button" class="btn btn-danger">Annuler</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#annulerModal">
+                Annuler la réservation
+                </button>
             </div>
         </form>
     </div>
+</div>
+
+<div class="modal fade" id="annulerModal" tabindex="-1" aria-labelledby="annulerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="annulerModalLabel">Annuler la réservation</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Êtes-vous sûr de vouloir annuler cette réservation ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Annuler la réservation</button>
+      </div>
+    </div>
+  </div>
 </div>

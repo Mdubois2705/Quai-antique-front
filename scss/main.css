@@ -12103,4 +12103,46 @@ footer.footer {
   display: block;
   color: #2D3142;
   padding: 10px;
+}
+
+.navbarmenu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarmenu .navbar {
+  display: inline-flex;
+  width: auto;
+  padding: 0.5rem 1rem;
+}
+
+.navbarmenu .navbar form {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.colorli {
+  color: rgb(185, 185, 185);
+}
+
+.barremenu {
+  color: #49DCB1;
+}
+
+.bi-arrows-vertical {
+  color: #49DCB1;
+  font-size: 3rem;
+  line-height: 1;
 }/*# sourceMappingURL=main.css.map */
